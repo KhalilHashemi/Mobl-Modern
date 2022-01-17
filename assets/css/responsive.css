@@ -1,0 +1,687 @@
+@media screen and (max-width: 576px) {
+  header nav .container .navbar-right label {
+    display: block;
+  }
+  header nav .container .navbar-right label:hover {
+    cursor: pointer;
+  }
+  header nav .container .navbar-right ul {
+    position: absolute;
+    right: -900px;
+  }
+  header nav .container .navbar-right input:checked ~ ul {
+    right: 0;
+    display: block;
+    padding: 10px 50px 10px 15px;
+    background-color: rgb(163 163 163 / 60%);
+    width: 100%;
+  }
+  header #slide {
+    background-position: bottom;
+    background-size: contain;
+    height: 70vh;
+  }
+  header #slide .slider .slide-description h3 {
+    font-size: 25px;
+    margin-left: 160px;
+    margin-top: 10px;
+  }
+  header #slide .slider .slide-description h2 {
+    font-size: 40px;
+    margin-right: 100px;
+  }
+  #hanging-lamp {
+    background-color: #fff;
+  }
+  #hanging-lamp .fill-place {
+    left: 100%;
+  }
+  #hanging-lamp .hanging-lamp {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right {
+    padding: 0;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right div {
+    justify-content: center;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .img-right img {
+    width: 100%;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left {
+    width: 100%;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left .description-left {
+    background-color: #c56211;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left .description-left h2 {
+    font-size: 30px;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left .description-left h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  #hanging-lamp-two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  #hanging-lamp-two .text-two {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  #hanging-lamp-two .hanging-lamp-two{
+    width: 100%;
+  }
+  #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img.first-line-img {
+    width: 150px;
+    height: 150px;
+  }
+  #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img.second-line-img {
+    width: 150px;
+    height: 230px;
+  }
+  #sofa {
+    margin-top: 120px;
+  }
+  #sofa .sofa-cover {
+    left: 100%;
+  }
+  #sofa .container {
+    background-color: #fff;
+  }
+  #sofa .sofa {
+    display: flex;
+    flex-direction: column;
+  }
+  #sofa .sofa .sofa-right {
+    width: 100%;
+  }
+  #sofa .sofa .sofa-right .description-right {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    background-color: #294152;
+  }
+  #sofa .sofa .sofa-right .description-right h3,
+  #sofa .sofa .sofa-right .description-right h2 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  #sofa .sofa .sofa-right .description-right h3{
+    margin-bottom: 10px;
+  }
+  #sofa .sofa .sofa-left {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #sofa .sofa .sofa-left .description-left {
+    padding: 0;
+    margin-top: 80px;
+  }
+  #sofa .sofa .sofa-left .description-left h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+  }
+  #sofa .sofa .sofa-left .description-left p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  #sofa .sofa .sofa-left .description-left div {
+    justify-content: center;
+  }
+  #sofa .sofa .sofa-left .img-left {
+    margin-top: 80px;
+  }
+  #sofa .sofa .sofa-left .img-left img {
+    width: 90%;
+    height: auto;
+    margin: 0;
+  }
+  #sofa-two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  #sofa-two .text-two {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  #sofa-two .sofa-two{
+    width: 100%;
+  }
+  #sofa-two .sofa-two .sofa-two-right {
+    width: 100%;
+  }
+  #sofa-two .sofa-two .sofa-two-right ul li img.first-line-img {
+    width: 150px;
+    height: 150px;
+  }
+  #sofa-two .sofa-two .sofa-two-right ul li img.second-line-img {
+    width: 150px;
+    height: 230px;
+  }
+  #counters {
+    margin-top: 100px;
+    padding: 80px 0;
+  }
+  #counters .counters .counters-item {
+    margin: 0 8px;
+  }
+  #counters .counters .counters-item .counter {
+    margin: 25px 0;
+  }
+  #counters .counters .counters-item i {
+    font-size: 30px;
+  }
+  #counters .counters .counters-item .counter,
+  #counters .counters .counters-item h5 {
+    font-size: 15px;
+  }
+  #footer {
+    padding-bottom: 25px;
+  }
+  #footer .footer .footer-desc {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  header nav .container .navbar-right label {
+    display: block;
+  }
+
+  header nav .container .navbar-right label:hover {
+    cursor: pointer;
+  }
+  header nav .container .navbar-right ul {
+    position: absolute;
+    right: -900px;
+  }
+
+  header nav .container .navbar-right input:checked ~ ul {
+    right: 0;
+    display: block;
+    margin: 10px 0 0 0;
+    padding: 15px 50px 15px 15px;
+    background-color: rgb(163 163 163 / 60%);
+    width: 100%;
+  }
+  header nav .container .navbar-right input:checked ~ ul {
+    right: 0;
+    display: block;
+    padding: 10px 50px 10px 15px;
+    background-color: rgb(163 163 163 / 60%);
+    width: 100%;
+  }
+  header #slide {
+    background-position: bottom;
+    background-size: contain;
+    height: 80vh;
+  }
+  header #slide .slider .slide-description h3 {
+    font-size: 45px;
+    margin-left: 220px;
+    margin-top: 10px;
+  }
+  header #slide .slider .slide-description h2 {
+    font-size: 65px;
+    margin-right: 150px;
+  }
+  #hanging-lamp .fill-place {
+    left: 100%;
+  }
+  #hanging-lamp .hanging-lamp {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right {
+    padding: 0;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right div {
+    justify-content: center;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left {
+    width: 100%;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left .description-left {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left .description-left h2 {
+    font-size: 30px;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left .description-left h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  #hanging-lamp .hanging-lamp .hanging-right .img-right img {
+    width: 100%;
+  }
+  #hanging-lamp-two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  #hanging-lamp-two .text-two {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  #hanging-lamp-two .hanging-lamp-two{
+    width: 100%;
+  }
+  #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img.first-line-img {
+    width: 150px;
+    height: 150px;
+  }
+  #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img.second-line-img {
+    width: 150px;
+    height: 230px;
+  }
+  #sofa {
+    margin-top: 120px;
+  }
+  #sofa .sofa-cover {
+    left: 100%;
+  }
+  #sofa .container {
+    background-color: #fff;
+  }
+  #sofa .sofa {
+    display: flex;
+    flex-direction: column;
+  }
+  #sofa .sofa .sofa-right {
+    width: 100%;
+  }
+  #sofa .sofa .sofa-right .description-right {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    background-color: #294152;
+  }
+  #sofa .sofa .sofa-right .description-right h3,
+  #sofa .sofa .sofa-right .description-right h2 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  #sofa .sofa .sofa-right .description-right h3{
+    margin-bottom: 10px;
+  }
+  #sofa .sofa .sofa-left {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #sofa .sofa .sofa-left .description-left {
+    padding: 0;
+    margin-top: 80px;
+  }
+  #sofa .sofa .sofa-left .description-left h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+  }
+  #sofa .sofa .sofa-left .description-left p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  #sofa .sofa .sofa-left .description-left div {
+    justify-content: center;
+  }
+  #sofa .sofa .sofa-left .img-left {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  #sofa .sofa .sofa-left .img-left img {
+    width: 60%;
+    height: auto;
+    margin: 0;
+  }
+  #sofa-two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  #sofa-two .text-two {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  #sofa-two .sofa-two{
+    width: 100%;
+  }
+  #sofa-two .sofa-two .sofa-two-right {
+    width: 100%;
+  }
+  #sofa-two .sofa-two .sofa-two-right ul li img.first-line-img {
+    width: 150px;
+    height: 150px;
+  }
+  #sofa-two .sofa-two .sofa-two-right ul li img.second-line-img {
+    width: 150px;
+    height: 230px;
+  }
+  #counters {
+    margin-top: 100px;
+    padding: 80px 0;
+  }
+  #counters .counters .counters-item {
+    margin: 0 8px;
+  }
+  #counters .counters .counters-item .counter {
+    margin: 25px 0;
+  }
+  #counters .counters .counters-item i {
+    font-size: 30px;
+  }
+  #counters .counters .counters-item .counter,
+  #counters .counters .counters-item h5 {
+    font-size: 15px;
+  }
+  #footer .footer .footer-desc {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  header #slide .slider .slide-description h3 {
+    margin-top: -150px;
+    font-size: 50px;
+    margin-left: 230px;
+  }
+  header #slide .slider .slide-description h2 {
+    font-size: 90px;
+    margin-right: 150px;
+  }
+  #hanging-lamp .fill-place {
+    left: 100%;
+  }
+  #hanging-lamp .hanging-lamp {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right {
+    padding: 0;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right div {
+    justify-content: center;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left {
+    width: 100%;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left .description-left {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left .description-left h2 {
+    font-size: 30px;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left .description-left h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  #hanging-lamp .hanging-lamp .hanging-right .img-right img {
+    width: 100%;
+  }
+  #hanging-lamp-two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 30px;
+  }
+  #hanging-lamp-two .text-two {
+    display: none;
+  }
+  #hanging-lamp-two .hanging-lamp-two{
+    width: 100%;
+  }
+  #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img.first-line-img {
+    width: 150px;
+    height: 150px;
+  }
+  #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img.second-line-img {
+    width: 150px;
+    height: 230px;
+  }
+  #sofa {
+    margin-top: 120px;
+  }
+  #sofa .sofa-cover {
+    left: 100%;
+  }
+  #sofa .container {
+    background-color: #fff;
+  }
+  #sofa .sofa {
+    display: flex;
+    flex-direction: column;
+  }
+  #sofa .sofa .sofa-right {
+    width: 100%;
+  }
+  #sofa .sofa .sofa-right .description-right {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    background-color: #294152;
+  }
+  #sofa .sofa .sofa-right .description-right h3,
+  #sofa .sofa .sofa-right .description-right h2 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  #sofa .sofa .sofa-right .description-right h3{
+    margin-bottom: 10px;
+  }
+  #sofa .sofa .sofa-left {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #sofa .sofa .sofa-left .description-left {
+    padding: 0;
+    margin-top: 80px;
+  }
+  #sofa .sofa .sofa-left .description-left h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+  }
+  #sofa .sofa .sofa-left .description-left p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  #sofa .sofa .sofa-left .description-left div {
+    justify-content: center;
+  }
+  #sofa .sofa .sofa-left .img-left {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  #sofa .sofa .sofa-left .img-left img {
+    width: 60%;
+    height: auto;
+    margin: 0;
+  }
+  #sofa-two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0px;
+    height: 690px;
+    margin-bottom: 40px;
+  }
+  #sofa-two .text-two {
+    display: none;
+  }
+  #sofa-two .sofa-two{
+    width: 100%;
+  }
+  #sofa-two .sofa-two .sofa-two-right {
+    width: 100%;
+  }
+  #sofa-two .sofa-two .sofa-two-right ul li img.first-line-img {
+    width: 150px;
+    height: 150px;
+  }
+  #sofa-two .sofa-two .sofa-two-right ul li img.second-line-img {
+    width: 150px;
+    height: 230px;
+  }
+  #footer .footer .footer-desc {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+  header #slide .slider .slide-description h3 {
+    font-size: 60px;
+    margin-top: -150px;
+  }
+  header #slide .slider .slide-description h2 {
+    font-size: 100px;
+  }
+  #hanging-lamp {
+    background-color: #fff;
+  }
+  #hanging-lamp .fill-place {
+    left: 120%;
+  }
+  #hanging-lamp .hanging-lamp {
+    flex-direction: column-reverse;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right {
+    width: 100%;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right p {
+    margin-bottom: 25px;
+  }
+  #hanging-lamp .hanging-lamp .hanging-left {
+    width: 100%;
+    background-color: #c56211;
+  }
+  
+  #hanging-lamp .hanging-lamp .hanging-left .description-left h3 {
+    margin-bottom: 10px;
+  }
+  #hanging-lamp-two .text-two {
+    display: none;
+  }
+  #hanging-lamp-two .hanging-lamp-two {
+    width: 100%;
+  }
+  #sofa {
+    background-color: #fff;
+    margin-top: 70px;
+  }
+  #sofa .sofa-cover {
+    left: 120%;
+  }
+  #sofa .sofa {
+    flex-direction: column;
+  } 
+  #sofa .sofa .sofa-left {
+    width: 100%;
+  }
+  #sofa .sofa .sofa-right {
+    width: 100%;
+    background-color: #294152;
+  }  
+  #sofa .sofa .sofa-right .description-right h3{
+    margin-bottom: 10px;
+  }   
+  #sofa-two .text-two {
+    display: none;
+  }
+  #sofa-two .sofa-two {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+  header #slide .slider .slide-description h3 {
+    font-size: 60px;
+  }
+  header #slide .slider .slide-description h2 {
+    font-size: 100px;
+  }
+  #hanging-lamp .hanging-lamp .hanging-right .description-right p {
+    margin-bottom: 20px;
+  }
+  #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img {
+    width: 190px;
+  }
+  #sofa-two .sofa-two .sofa-two-right ul li img {
+    width: 180px;
+  }
+}
+@media screen and (min-width: 1500px) and (max-width: 2000px) {
+}
